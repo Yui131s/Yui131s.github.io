@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.body {
+    background-color: white;
+}
+
+.header {
+    padding-top: 111px;
+    position: relative;
+}
+
+.logo-image {
+  position: absolute;
+  display: block;
+  top: 0px;
+  margin-left: 47%;
+  width: 50%;
+  height: auto;
+  margin-top: 30px;
+}
+.header-nav {
+  height: 70px;
+  margin-top: 20px;
+}
+
+.menu {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header-nav ul li a {
+  display: block;
+  line-height: 70px;
+  width: 145px;
+  letter-spacing: 0.5em;
+  color: black;
+  text-decoration: none;
+  transition: all .2s ease-in-out; 
+}
+
+.header-nav ul li a:hover {
+  transform: scale(1.1); 
+  font-weight: bold;
+}
+
+.item2 {
+  margin-right: 220px;
+}
+
+.blog-card-wrapper {
+  margin: 80px;
+  margin-bottom: 40px;
+
+}
+.heading-wrapper {
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    text-decoration: bold;
+}
+
+.heading {
+  font-size: 36px;
+}
+
+.heading-wrapper p {
+  font-size: 20px;
+  text-align: right;
+  margin-right: 200px;
+  text-decoration: none;
+}
+
+.image-wrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.content {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+
+.reference a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.button {
+  margin-bottom: 40px;
+  display: block;
+  text-align: center;
+}
+.button a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.button a:hover {
+  background-color: #B29A9A;
+  color: whitesmoke;
+}
+
+.previous {
+  background-color: #8B8A8A;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.next {
+  background-color: #8B8A8A;
+  color: whitesmoke;
+  font-size: 15px;
+}
